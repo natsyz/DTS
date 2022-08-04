@@ -3,19 +3,19 @@ import streamlit as st
 st.markdown("# Phising")
 
 st.markdown(""" 
-Kemajuan digital dan globalisasi membuat kita sebagai masyarakat umum dapat menggunakan aplikasi dan software tertentu untuk mempermudah kita mengerjakan sesuatu atau memperoleh apapun. Masa pandemi juga membuat kita semakin terbiasa untuk melakukan aktifitas jual beli secara digital, bukan lagi manual. Menyambungkan dompet digital (_e-wallet_) merupakan salah satu kemudahan yang disediakan  e-commerse dan marketplace untuk memudahkan proses pembayaran barang/jasa yang dibeli. Eitss, tapi hati-hati loh. Kemajuan teknologi ini juga membuat banyak “oknum nakal” mulai melakukan _cybercrime_.
+Kemajuan digital dan globalisasi membuat kita sebagai masyarakat umum dapat menggunakan aplikasi dan software tertentu untuk mempermudah kita mengerjakan sesuatu atau memperoleh apapun. Masa pandemi juga membuat kita semakin terbiasa untuk melakukan aktifitas jual beli secara digital, bukan lagi manual. Menyambungkan dompet digital (_e-wallet_) merupakan salah satu kemudahan yang disediakan  _e-commerce_ dan _marketplace_ untuk memudahkan proses pembayaran barang/jasa yang dibeli. Eitss, tapi hati-hati loh. Kemajuan teknologi ini juga membuat banyak “oknum nakal” mulai melakukan _cybercrime_.
 
-Dikutip dari buku Pengantar Teknologi Informasi (2020) karya Darsil Aldo dkk, cyber crime adalah kejahatan yang ditimbulkan karena pemanfaatan teknologi internet. Bisa di maknai sebagai perbuatan melawan hukum yang dilakukan dengan menggunakan internet.
+Dikutip dari buku Pengantar Teknologi Informasi (2020) karya Darsil Aldo dkk, _cyber crime_ adalah kejahatan yang ditimbulkan karena pemanfaatan teknologi internet. Bisa di maknai sebagai perbuatan melawan hukum yang dilakukan dengan menggunakan internet.
 """)
 
 st.image("images/image1.png")
 
 st.markdown("""
-Kalian pasti pernah membaca banyak judul berita seperti diatas kan? Yap, ini berupakan beberapa berita tentang cyber crime yang banyak dilakukan tapi sayangnya tidak semua orang menyadari kalau mereka mungkin adalah korban. Kegiatan cybercrime yang umumnya dilakukan untuk mengambil data korban atau detail akun bank/ e-wallet yang akan di retas adalah “Phising”.
+Kalian pasti pernah membaca banyak judul berita seperti diatas kan? Yap, ini berupakan beberapa berita tentang cyber crime yang banyak dilakukan tapi sayangnya tidak semua orang menyadari kalau mereka mungkin adalah korban. Kegiatan cybercrime yang umumnya dilakukan untuk mengambil data korban atau detail akun bank/ _e-wallet_ yang akan di retas adalah “Phising”.
 
-Phising adalah upaya untuk mendapatkan informasi data seseorang dengan teknik pengelabuan. Data yang menjadi sasaran phising adalah data pribadi (nama, usia, alamat), data akun (username dan password), dan data finansial (informasi kartu kredit, rekening).
+*Phising* adalah upaya untuk mendapatkan informasi data seseorang dengan teknik pengelabuan. Data yang menjadi sasaran phising adalah *data pribadi* (nama, usia, alamat), *data akun* (username dan password), dan *data finansial* (informasi kartu kredit, rekening).
 
-Istilah resmi phising adalah phishing, yang berasal dari kata fishing yaitu memancing.
+Istilah resmi *phising* adalah phishing, yang berasal dari kata _fishing_ yaitu memancing.
 
 Kegiatan phising memang bertujuan memancing orang untuk memberikan informasi pribadi secara sukarela tanpa disadari. Padahal informasi yang dibagikan tersebut akan digunakan untuk tujuan kejahatan.
 
@@ -29,7 +29,7 @@ st.image("images/image2.png")
 st.markdown("""
 Informasi data phising yang diperoleh bisa langsung dimanfaatkan untuk menipu korban. Atau, bisa juga dijual ke pihak lain untuk melakukan tindakan tidak bertanggung jawab seperti penyalahgunaan akun.
 
-Menurut sebuah laporan, 32% pencurian data selalu melibatkan kegiatan phising. Bahkan, di awal tahun 2020 saja, Anti Phishing Working Group mencatat sudah ada 165.772 website phising yang siap menjaring korban. Dan, sektor finansial masih menjadi sasaran utamanya:
+Menurut sebuah laporan, *32% pencurian data selalu melibatkan kegiatan phising*. Bahkan, di awal tahun 2020 saja, *Anti Phishing Working Group* mencatat sudah ada [165.772 website phising](https://apwg.org/trendsreports/) yang siap menjaring korban. Dan, sektor finansial masih menjadi sasaran utamanya:
 """)
 
 st.image("images/image3.png")
@@ -46,7 +46,7 @@ st.markdown("""
     
     <img src="https://github.com/natsyz/DTS/blob/master/images/image4.png?raw=true" alt="drawing" width="700"/>
 
-    Jumlah aksi email phising ini cukup banyak. Menurut data, terdapat 3,4 miliar email palsu yang dikirimkan setiap harinya. Anda bisa bayangkan, berapa banyak korban yang bisa terjerat aksi ini.
+    Jumlah aksi email phising ini cukup banyak. Menurut data, terdapat [3,4 miliar email palsu](https://www.techradar.com/news/one-trillion-phishing-emails-sent-every-year) yang dikirimkan setiap harinya. Anda bisa bayangkan, berapa banyak korban yang bisa terjerat aksi ini.
 
 2. **Spear Phising**
 
@@ -68,16 +68,16 @@ st.markdown("""
 
 st.markdown("## Bagaimana Sebuah Aksi Phising Dijalankan?")
 
-st.markdown("Cara kerja phising adalah memanipulasi informasi dan memanfaatkan kelalaian korban. Di sini, kami akan menggunakan contoh web phising dengan memanfaatkan nama PayPal seperti ditemukan welivesecurity.com.")
+st.markdown("Cara kerja phising adalah memanipulasi informasi dan memanfaatkan kelalaian korban. Di sini, kami akan menggunakan contoh web phising dengan memanfaatkan nama *PayPal* seperti ditemukan *welivesecurity.com*.")
 
 st.markdown("""
 1. **Pelaku Memilih Calon Korban**
 
-    Tahap awal kegiatan web phising akan dimulai dengan menentukan siapa calon korbannya. Pada umumnya, korban yang disukai adalah pengguna platform pembayaran online seperti PayPal, Ovo, dan lainnya.
+    Tahap awal kegiatan web phising akan dimulai dengan menentukan siapa calon korbannya. Pada umumnya, korban yang disukai adalah pengguna platform pembayaran online seperti *PayPal*, *Ovo*, dan lainnya.
 
     <img src="https://github.com/natsyz/DTS/blob/master/images/image5.png?raw=true" alt="drawing" width="700"/>
 
-    Tidak hanya itu saja, banyak pelaku phising yang mengincar pengguna platform yang memiliki celah keamanan. Kasus terbaru terjadi pada platform komunikasi Zoom. Tak kurang dari 1000 upaya phising terjadi hanya di bulan April 2020 saja.
+    Tidak hanya itu saja, banyak pelaku phising yang mengincar pengguna platform yang memiliki celah keamanan. Kasus terbaru terjadi pada platform komunikasi *Zoom*. Tak kurang dari 1000 upaya phising terjadi hanya di bulan April 2020 saja.
 
 2. **Pelaku Menentukan Tujuan Phising**
 
@@ -85,7 +85,9 @@ st.markdown("""
 
     Apakah akan menarget username dan password pengguna untuk menguasai akun. Apa malah mendapatkan semua informasi korban melalui sebuah prosedur yang disiapkan.
 
-    Pada contoh aksi phising PayPal, pelaku menginginkan semua informasi dari pengguna platform tersebut. Seperti ditunjukkan welivescurity.com, pengguna akan menerima email untuk mengkonfirmasi data diri melalui sebuah link website palsu yang disediakan.
+    Pada contoh aksi phising *PayPal*, pelaku menginginkan semua informasi dari pengguna platform tersebut. Seperti ditunjukkan *welivescurity.com*, pengguna akan menerima email untuk mengkonfirmasi data diri melalui sebuah link website palsu yang disediakan.
+
+    <img src="https://github.com/natsyz/DTS/blob/master/images/image7.png?raw=true" alt="drawing" width="700"/>
 
 3. **Pelaku Membuat Website Phising**
 
@@ -95,21 +97,21 @@ st.markdown("""
 
     Pada prakteknya, pelaku kadang membuat website yang sangat menyerupai halaman website resmi tapi menggunakan nama domain yang jauh berbeda seperti terlihat di contoh atas.
 
-    Namun, pada contoh kasus phishing Danamon Online beberapa waktu lalu, Anda akan langsung melihat bahwa domain yang digunakan mirip sekali dengan website resminya:
+    Namun, pada contoh kasus phishing *Danamon Online* beberapa waktu lalu, Anda akan langsung melihat bahwa domain yang digunakan mirip sekali dengan website resminya:
 
-    <img src="https://github.com/natsyz/DTS/blob/master/images/image7.png?raw=true" alt="drawing" width="700"/>
+    <img src="https://raw.githubusercontent.com/natsyz/DTS/master/images/image9.jpg" alt="drawing" width="700"/>
 
 4. **Calon Korban Mengakses Website Phising**
 
     Dengan tampilan website dan informasi yang meyakinkan, tak sedikit calon korban yang akhirnya mengakses website phising milik pelaku. Langkah ini biasanya didahului dengan mengajak calon korban melalui email phising atau link yang disebarkan via SMS atau akun media sosial.
 
-    <img src="https://github.com/natsyz/DTS/blob/master/images/image8.png?raw=true" alt="drawing" width="700"/>
+    <img src="https://github.com/natsyz/DTS/blob/master/images/image8.jpg?raw=true" alt="drawing" width="700"/>
 
 5. **Calon Korban Mengikuti Instruksi Pelaku**
 
     Inilah kunci dari terjadinya aksi phising. JIka calon korban melakukan instruksi yang diberikan pelaku, maka pelaku akan berhasil mencapai tujuannya.
 
-    <img src="https://github.com/natsyz/DTS/blob/master/images/image9.png?raw=true" alt="drawing" width="700"/>
+    <img src="https://github.com/natsyz/DTS/blob/master/images/image12.jpg?raw=true" alt="drawing" width="700"/>
 
     Sebagai contoh, pada halaman website yang disediakan, calon korban diminta melakukan update informasi pribadi hingga data pembayaran pada akun yang digunakan. Pada saat selesai mengisi data dan melakukan submit, saat itulah semua informasi korban berhasil dimiliki.
 
@@ -144,7 +146,7 @@ st.markdown("""
 
     Email phising masih menjadi jenis kejahatan online yang marak. Untuk itu, Anda perlu berhati-hati ketika mendapatkan email dari pengirim yang mencurigakan.
 
-    Anda sebaiknya tidak hanya melihat nama pengirim, tapi juga alamat email yang mengirimkannya pada bagian From field. Sebab, email tersebut bisa saja palsu.
+    Anda sebaiknya tidak hanya melihat nama pengirim, tapi juga *alamat email yang mengirimkannya* pada bagian *From field*. Sebab, email tersebut bisa saja palsu.
 
     Anda bahkan harus extra waspada kalau email yang Anda terima terkait dengan perubahan informasi akun, pembayaran dan hal penting lainnya.
 
@@ -154,9 +156,9 @@ st.markdown("""
 
     Apa alasannya?
 
-    Pertama, ketika menggunakan nama Niagahoster, maka email yang kami kirim akan menggunakan domain niagahoster.co.id, misalnya cs@niagahoster.co.id. Bukan @i-ob.co.uk atau domain lain yang tidak terkait Niagahoster.
+    *Pertama*, ketika menggunakan nama Niagahoster, maka email yang kami kirim akan menggunakan domain niagahoster.co.id, misalnya cs@niagahoster.co.id. *Bukan @i-ob.co.uk* atau domain lain yang tidak terkait Niagahoster.
 
-    Kedua, pada bagian footer email, akan selalu ada kontak resmi Niagahoster yang bisa Anda gunakan melakukan pengecekan (verifikasi) apakah informasi yang Anda dapatkan itu benar. Pada email phising di atas, tidak ada, bukan?
+    *Kedua*, pada bagian footer email, akan selalu ada kontak resmi Niagahoster yang bisa Anda gunakan melakukan pengecekan (verifikasi) apakah informasi yang Anda dapatkan itu benar. Pada email phising di atas, tidak ada, bukan?
 
     <img src="https://github.com/natsyz/DTS/blob/master/images/image13.png?raw=true" alt="drawing" width="700"/>
 
@@ -176,7 +178,7 @@ st.markdown("""
 
 4. **Pastikan Keamanan Website yang Diakses**
 
-    Jangan kunjungi website yang tidak aman, terutama website yang akan memproses data pribadi atau finansial. Hanya lakukan transaksi pada website yang menggunakan SSL saja, yaitu website yang ditandai dengan penggunaan protokol HTTPS.
+    Jangan kunjungi website yang tidak aman, terutama website yang akan memproses data pribadi atau finansial. Hanya lakukan transaksi pada website yang menggunakan SSL saja, yaitu website yang ditandai dengan penggunaan protokol *HTTPS*.
 
     <img src="https://github.com/natsyz/DTS/blob/master/images/image16.png?raw=true" alt="drawing" width="700"/>
 
@@ -204,7 +206,7 @@ st.markdown("""
 
 8. **Gunakan Two-Factor Authentication**
 
-    Jika platform yang Anda gunakan menyediakannya, selalu aktifkan Two-Factor Authentication (2FA). Sistem ini menggunakan verifikasi 2 langkah, yaitu password dan ponsel Anda.
+    Jika platform yang Anda gunakan menyediakannya, selalu aktifkan *Two-Factor Authentication (2FA)*. Sistem ini menggunakan verifikasi 2 langkah, yaitu password dan ponsel Anda.
 
     <img src="https://github.com/natsyz/DTS/blob/master/images/image18.png?raw=true" alt="drawing" width="700"/>
 
@@ -228,7 +230,7 @@ st.markdown("""
 
     <img src="https://github.com/natsyz/DTS/blob/master/images/image19.png?raw=true" alt="drawing" width="700"/>
 
-    Apa saja pilihan plugin yang bisa Anda gunakan? Sebagian besar plugin security WordPress yang pernah kami bahas bisa Anda gunakan. Atau, Anda bisa menggunakan MalCare yang merupakan plugin anti malware dengan fitur instant removal. Malcare bisa mendeteksi adanya malware yang menyerang website dan lalu menghapusnya secara otomatis.
+    Apa saja pilihan plugin yang bisa Anda gunakan? Sebagian besar plugin security WordPress yang pernah kami bahas bisa Anda gunakan. Atau, Anda bisa menggunakan *MalCare* yang merupakan plugin anti malware dengan fitur instant removal. Malcare bisa mendeteksi adanya malware yang menyerang website dan lalu menghapusnya secara otomatis.
 
 2. **Selalu Update WordPress**
 
